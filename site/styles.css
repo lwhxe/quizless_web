@@ -1,1 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  background-color: black;
+  color: white;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.nav {
+  animation: slide-in 2s forwards;
+  opacity: 1;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+
+  margin: 2%;
+}
+
+.content {
+  opacity: 1;
+  padding: 20%;
+  text-align: center;
+  animation: slide-in 1s ease-out;
+}
+
+.content h2 {
+  padding-bottom: 2%;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+@keyframes slide-in {
+  from {transform: translateY(-100px); opacity: 0;} to {transform: translateY(0px); opacity: 1;}
+}
