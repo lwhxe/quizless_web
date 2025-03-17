@@ -1,5 +1,7 @@
 # API Documentation for Quizless 2 on the web...
 
+Content-Type has to be specified and will always be: "application/json"
+
 **Log In** <br><br>
 All login requests are using "GET" method.
 
