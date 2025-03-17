@@ -1,16 +1,16 @@
 # API Documentation for Quizless 2 on the web...
 
-**Log In**
+**Log In** <br>
 All login requests are using "GET" method.
 
-**Sign Up**
+**Sign Up** <br>
 All signup requests are using "POST" method.
 
-**Create**
+**Create** <br>
 All saving of quizzes is done using "POST" method.
 
-**My Quiz**
+**My Quiz** <br>
 All retrieving of owned quizzes is done using "GET" method.
 
-**Browse**
+**Browse** <br>
 All retrieving of general quizzes is done using "GET" method.
