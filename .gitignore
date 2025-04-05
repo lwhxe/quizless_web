@@ -1,0 +1,3 @@
+# Ignore Zig specific DIRS
+**/.zig-cache
+**/zig-out
